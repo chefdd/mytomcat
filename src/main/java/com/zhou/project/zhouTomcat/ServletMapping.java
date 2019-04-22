@@ -12,5 +12,4 @@ public class ServletMapping {
     private String url;
     private String clazz;
 
-
 }

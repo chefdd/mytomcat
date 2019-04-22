@@ -1,8 +1,11 @@
 package com.zhou.project.zhouTomcat;
 
+import lombok.Data;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@Data
 public class ServletMappingConfig {
 
     public static List<ServletMapping> servletMappingList = new ArrayList<ServletMapping>();
